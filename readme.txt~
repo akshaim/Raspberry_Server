@@ -2,7 +2,7 @@ After initial configuration of raspberry pi run the following commands in termin
 
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install python-serial apache2 libapache2-mod-wsgi python-setuptools python-flask
+sudo apt-get installpython-serial apache2 libapache2-mod-wsgi python-setuptools python-flask
 
 
 then edit your virtual host in /etc/apache2/sites-enabled
