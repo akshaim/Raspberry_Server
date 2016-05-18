@@ -8,7 +8,7 @@ connected = False
 ## establish connection to the serial port that your arduino 
 ## is connected to.
 
-locations=['/dev/ttyUSB0','/dev/ttyUSB1','/dev/ttyUSB2','/dev/ttyUSB3']
+locations=['/dev/ttyACM0','/dev/ttyACM1','/dev/ttyACM2','/dev/ttyACM3']
 
 for device in locations:
     try:
@@ -25,7 +25,7 @@ while not connected:
 
 ## open text file to store the current 
 ##gps co-ordinates received from the rover    
-text_file = open("position4.txt", 'w')
+text_file = open("write.txt", 'w')
 ## read serial data from arduino and 
 ## write it to the text file 'position.txt'
 while 1:
