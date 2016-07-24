@@ -1,4 +1,5 @@
 #!/usr/local/bin/python
+#refer https://pimylifeup.com/wp-content/uploads/2016/01/Light-Sensor-Circuit.jpg for connection
 
 import RPi.GPIO as GPIO
 import time
